@@ -14,13 +14,11 @@ $(function(){
         {
             $('.myIcons').show(1200);
             $('#goUPButton').slideDown(1200);
-            $('#navBar').css({position:"fixed",zIndex:"999",width:"100%"})
         }
         else
         {
            $('.myIcons').hide(1200);
-            $('#goUPButton').slideUp(1200);
-            $('#navBar').css({position:"relative"}) ; 
+            $('#goUPButton').slideUp(1200); 
         }
         if($(window).scrollTop()>=350)
         {
